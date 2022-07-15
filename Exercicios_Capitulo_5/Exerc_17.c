@@ -7,7 +7,6 @@
 16 17 18 19 20 21*/
 
 #include <stdio.h>
-#include <math.h>
 
 int main(void){
     int i,j,n,x;
