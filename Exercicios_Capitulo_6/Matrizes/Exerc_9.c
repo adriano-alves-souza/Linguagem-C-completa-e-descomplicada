@@ -9,7 +9,29 @@ deverá gerar o vetor
 31 4 32*/
 
 #include <stdio.h>
-
+#define TAMLIN 3
+#define TAMCOL 3
 int main(void){
+    int i,j, mat[TAMLIN][TAMCOL];
+
+    for(i = 0; i < TAMLIN; i++){
+        for(j = 0; j < TAMCOL; j++){
+            printf("Valores[%d][%d]: ",i,j);
+            scanf("%d", &mat[i][j]);
+        }
+    }
+
+    int vet[3],soma;
+    for(i = 0; i < TAMCOL; i++){
+        soma = 0;
+        for(j = 0; j < TAMLIN; j++){
+            soma += mat[j][i];
+        }
+        vet[i] = soma;
+    }
+
+    for(i = 0; i < TAMCOL; i++){
+        printf("%d ", vet[i]);
+    }
     return 0;
 }

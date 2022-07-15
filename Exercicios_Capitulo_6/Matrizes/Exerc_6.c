@@ -2,7 +2,23 @@
 contidos em sua diagonal principal.*/
 
 #include <stdio.h>
-
+#define TAMLIN 3
+#define TAMCOL 3
 int main(void){
+    int i,j, vet[TAMLIN][TAMCOL];
+
+    for(i = 0; i < TAMLIN; i++){
+        for(j = 0; j < TAMCOL; j++){
+            printf("Valores: ");
+            scanf("%d", &vet[i][j]);
+        }
+    }
+
+    int soma = 0;
+    for(i = 0; i < TAMLIN; i++){
+        soma += vet[i][i];
+    }
+
+    printf("Soma dos valores na diagonal principal %d\n",soma);
     return 0;
 }
