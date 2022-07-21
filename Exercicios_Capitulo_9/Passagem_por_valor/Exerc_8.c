@@ -7,7 +7,7 @@ o quadrado de outro número inteiro. Exemplos: 1, 4, 9.*/
 void qdperfeito(int num);
 int main(void){
     int num;
-    
+
     printf("Digite um numero inteiro positivo: ");
     scanf("%d", &num);
 
