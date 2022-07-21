@@ -17,5 +17,5 @@ int main(void){
 void qdperfeito(int num){
     int resu = sqrt(num);
     printf("%d\n",resu);
-    num == pow(resu,2)? printf("É um quadrado perfeito.\n"):printf("Não é um quadrado perfeito.\n");
+    num == pow(resu,2)? printf("É um quadrado perfeito.\n"): printf("Não é um quadrado perfeito.\n");
 }
