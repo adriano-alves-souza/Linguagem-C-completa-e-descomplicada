@@ -1,5 +1,5 @@
 /*15) Faça um programa que leia os coeficientes de uma equação do segundo grau. Em seguida, calcule e mostre as raízes dessa equação, 
-lembrando que as raízes são calculadas como x = (-b ± raiz ∆) / 2 * a, em que ∆ = b^2 – 4 * a * c e ax^2 + bx + c = 0 representa uma equação do segundo
+lembrando que as raízes são calculadas como x = (-b ± raiz ∆) / 2 * a, em que ∆ = b² – 4 * a * c e ax^² + bx + c = 0 representa uma equação do segundo
 grau. A variável a tem de ser diferente de zero. Caso seja igual, imprima a mensagem “Não é equação de segundo grau”. 
 Do contrário, imprima:
 • Se ∆ < 0, não existe real. Imprima a mensagem “Não existe raiz”.

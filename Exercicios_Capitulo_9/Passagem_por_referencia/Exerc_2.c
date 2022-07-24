@@ -1,6 +1,6 @@
 /*2) Escreva uma função para o cálculo do volume e área de uma esfera
-V = 4/3*pi * r^3,
-A = 4*pi * r^2
+V = 4/3*pi * r³,
+A = 4*pi * r²
 em que pi = 3.1414592. O valor do raio r deve ser passado por parâmetro, e os
 valores calculados devem ser retornados por referência.*/
 

@@ -1,6 +1,6 @@
 /*12) Leia a altura e o raio de um cilindro circular e imprima o volume desse cilindro.
 O volume de um cilindro circular é calculado por meio da seguinte fórmula:
-V = pi * raio^2 * altura, em que pi = 3.141592*/
+V = pi * raio² * altura, em que pi = 3.141592*/
 #include <stdio.h>
 #include <math.h>
 #define PI 3.141592

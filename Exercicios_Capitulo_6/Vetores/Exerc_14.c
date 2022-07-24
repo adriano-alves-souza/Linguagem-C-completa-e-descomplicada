@@ -1,5 +1,5 @@
 /*14) Faça um programa que calcule o desvio-padrão d de um vetor V contendo n números
-dp = raiz do somatorio de (v[i] - media)^2
+dp = raiz do somatorio de (v[i] - media)²
 em que m é a média desse vetor. Considere n = 10. O vetor v deve ser lido do teclado.*/
 
 #include <stdio.h>
@@ -10,7 +10,7 @@ int main(void){
     int i;
     double v[N];
 
-    printf("Digite os 10 valores")
+    printf("Digite os 10 valores");
     for(i = 0; i < N; i++){
         printf("Valor %d: ",i+1);
         scanf("%lf", &v[i]);

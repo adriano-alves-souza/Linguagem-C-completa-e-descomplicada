@@ -1,5 +1,5 @@
 /*11) Leia o valor do raio de um círculo. Calcule e imprima a área do círculo correspondente.
-A área do círculo é A = pi * raio^2, sendo pi = 3.141592.*/
+A área do círculo é A = pi * raio², sendo pi = 3.141592.*/
 #include <stdio.h>
 #include <math.h>
 const float PI = 3.141592;

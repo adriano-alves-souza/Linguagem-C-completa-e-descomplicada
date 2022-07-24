@@ -1,5 +1,5 @@
 /*15) Faça um programa que leia uma matriz A de tamanho 5 × 5. Em seguida, calcule
-e imprima a matriz B, sendo que B = A^2.*/
+e imprima a matriz B, sendo que B = A².*/
 
 #include <stdio.h>
 #define TAMLIN 5
